@@ -94,7 +94,7 @@ const stickerCategories = {
         const imageCount = stickerCategories[category];
         for (let i = 1; i <= imageCount; i++) {
             const img = document.createElement('img');
-            img.src = `${category}/${category} (${i}).jpg`;  // Load image based on folder and name
+            img.src = `${category}/${category} (${i}).JPG`;  // Load image based on folder and name
             img.alt = `${category} Sticker ${i}`;
             img.classList.add('sticker'); // Add class to image
 
