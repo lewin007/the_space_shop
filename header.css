@@ -4,10 +4,19 @@
     background: linear-gradient(90deg, #050C9C, #3572EF, #3ABEF9, #A7E6FF);
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
     animation: fadeIn 2s ease-in-out;
+
+    /* Centering the container */
+    width: 80%; /* Adjust width as needed */
+    margin: 0 auto; /* Centers horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers vertically and horizontally */
 }
+
 
 .header-container h1 {
     font-family: 'Pacifico', cursive;
